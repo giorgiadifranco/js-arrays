@@ -37,17 +37,22 @@ const lastTeacher = teachers.pop();
 console.log(teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = teachers.splice(1); //rimuove l'elemento
+const firstTeacher = teachers.slice(1); 
 console.log(firstTeacher);
 
 //oppure 
-const first_teacher = teachers.slice(1); 
+/*const first_teacher = teachers.splice(1); 
 console.log(first_teacher);
-// rimuove ma non modifica del tutto l'array, infatti con una precedente eliminazione con splice non è possibile applicare slice. 
-//se slice fosse applicato prima di splice allora potremmo usarlo
+
+*/
+
+
 
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push('Vanessa')
+console.log(teachers);
+
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
