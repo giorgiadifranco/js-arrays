@@ -21,7 +21,7 @@ console.log(fourtheacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
-teachers.splice(5, 1, 'patrick')
+teachers.splice(4, 1, 'patrick')
 console.log(teachers);
 
 
