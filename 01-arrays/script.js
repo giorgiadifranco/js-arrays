@@ -41,8 +41,10 @@ const firstTeacher = teachers.splice(1); //rimuove l'elemento
 console.log(firstTeacher);
 
 //oppure 
-const first_teacher = teachers.slice(1); // rimuove ma non modifica del tutto l'array, infatti con una precedente eliminazione con splice non è possibile applicare slice 
+const first_teacher = teachers.slice(1); 
 console.log(first_teacher);
+// rimuove ma non modifica del tutto l'array, infatti con una precedente eliminazione con splice non è possibile applicare slice. 
+//se slice fosse applicato prima di splice allora potremmo usarlo
 
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
