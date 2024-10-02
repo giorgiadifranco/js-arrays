@@ -14,10 +14,6 @@ const teachers = [
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 
-const fourthTeacher = teachers.indexOf('Phil') ;
-console.log(fourthTeacher);
-
-//oppure, una volta trovato l'indice, posso stampare il nome 
 const fourtheacher = teachers[3];
 console.log(fourtheacher);
 
