@@ -18,23 +18,17 @@ console.log(reversedTeachers);
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
-/*const longNames = teachers.filter(myfunction) 
-
-function myFunction(array) {
-
-  return array.filter( >=5
-  
-}
 
 
-console.log(longNames);*/
 
-/*const numbers = [45, 4, 9, 16, 25];
-const over18 = numbers.filter(myFunction);
+const longNames = teachers.filter(function (word){
+  return word.length >= 5
+}) 
+console.log(longNames);
 
-function myFunction(value, index, array) {
-  return value > 18;
-}*/
+//var lengths = chars.map(function(word){ return word.length}) --> Stackoverflow
+
+
 
 // 3. Rimuovi 'Ed' dall'array teachers
 teachers.splice(5)
